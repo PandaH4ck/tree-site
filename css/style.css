@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 .header_conteiner {
   background-color: #1d2f30;
   height: 60px;
@@ -29,4 +30,33 @@
 .search_logout {
   display: flex;
   gap: 64px;
+}
+.wellcome_info {
+  padding: 0px 0px 0px 165px;
+  background-image: url("/icon/body/7abec015b26d7fd790a80795819f918a2e149d00.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 490px;
+  filter: brightness(60%);
+}
+.wellcome_info .global_text {
+  width: 688px;
+  height: 125px;
+  align-items: center;
+  font-size: 50px;
+  color: white;
+}
+.wellcome_info .text {
+  font-size: 15px;
+  width: 635px;
+  height: 72px;
+  padding: 0px;
+  color: white;
+}
+
+.gobal_text_together {
+  padding: 165px 0px 0px 0px;
+}
+.img_Frame {
 }
