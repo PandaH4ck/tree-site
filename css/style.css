@@ -9,7 +9,7 @@
   height: 60px;
   width: 100%;
   align-items: center;
-  padding: 0px 165px;
+  padding: 0px 405px;
   display: flex;
   justify-content: space-between;
 }
@@ -25,6 +25,7 @@
   text-decoration: none;
 }
 .nav_list :hover {
+  transition-duration: 1s;
   color: green;
 }
 .search_logout {
@@ -32,13 +33,15 @@
   gap: 64px;
 }
 .wellcome_info {
-  padding: 0px 0px 0px 165px;
-  background-image: url("/icon/body/7abec015b26d7fd790a80795819f918a2e149d00.jpg");
+  padding: 0px 405px;
+
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/icon/body/7abec015b26d7fd790a80795819f918a2e149d00.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   height: 490px;
-  filter: brightness(60%);
 }
 .wellcome_info .global_text {
   width: 688px;
@@ -58,5 +61,55 @@
 .gobal_text_together {
   padding: 165px 0px 0px 0px;
 }
-.img_Frame {
+.bg_color {
+  background-color: #1d2f30;
+}
+
+.plant {
+  rotate: z 90deg;
+  background-color: #0b1919;
+  width: 180px;
+  height: 255px;
+  padding: 16px 30px;
+}
+.plant h1 {
+  rotate: z -90deg;
+  display: flex;
+}
+.flower {
+  rotate: z 90deg;
+  background-color: #0b1919;
+  width: 180px;
+  height: 255px;
+  padding: 29px 30px;
+}
+.leaf {
+  rotate: z 90deg;
+  background-color: #0b1919;
+  width: 180px;
+  height: 255px;
+  padding: 26px 30px;
+}
+.wood {
+  rotate: z 90deg;
+  background-color: #0b1919;
+  width: 180px;
+  height: 255px;
+  /* padding: 14px 30px; */
+}
+.tree_collection {
+  padding: 60px 405px;
+  display: flex;
+  margin: 0px 30px;
+
+  height: 550px;
+  justify-content: space-between;
+}
+.leaf1 {
+  rotate: z 90deg;
+}
+.site_info {
+  color: white;
+
+  justify-content: space-between;
 }
