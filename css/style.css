@@ -3,13 +3,13 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+/* шапка */
 .header_conteiner {
   background-color: #1d2f30;
   height: 60px;
   width: 100%;
   align-items: center;
-  padding: 0px 405px;
+  padding: 0px 165px;
   display: flex;
   justify-content: space-between;
 }
@@ -32,8 +32,9 @@
   display: flex;
   gap: 64px;
 }
-.wellcome_info {
-  padding: 0px 405px;
+/* 1 глова */
+.hero {
+  padding: 0px 165px;
 
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
@@ -43,14 +44,14 @@
   background-position: center;
   height: 490px;
 }
-.wellcome_info .global_text {
+.hero .global_text {
   width: 688px;
   height: 125px;
   align-items: center;
   font-size: 50px;
   color: white;
 }
-.wellcome_info .text {
+.hero .text {
   font-size: 15px;
   width: 635px;
   height: 72px;
@@ -63,53 +64,97 @@
 }
 .bg_color {
   background-color: #1d2f30;
+  height: 1303px;
+}
+.block_img {
+  width: 255px;
+  height: 180px;
+  background-color: #0b1919;
 }
 
 .plant {
   rotate: z 90deg;
-  background-color: #0b1919;
-  width: 180px;
-  height: 255px;
   padding: 16px 30px;
 }
-.plant h1 {
-  rotate: z -90deg;
-  display: flex;
-}
+
 .flower {
   rotate: z 90deg;
-  background-color: #0b1919;
-  width: 180px;
-  height: 255px;
   padding: 29px 30px;
 }
+
 .leaf {
-  rotate: z 90deg;
-  background-color: #0b1919;
-  width: 180px;
-  height: 255px;
   padding: 26px 30px;
 }
+
+.leaf img {
+  rotate: z 120deg;
+}
 .wood {
-  rotate: z 90deg;
-  background-color: #0b1919;
-  width: 180px;
-  height: 255px;
-  /* padding: 14px 30px; */
+  padding: 15px 30px;
 }
 .tree_collection {
-  padding: 60px 405px;
+  padding: 60px 0px;
   display: flex;
-  margin: 0px 30px;
+  justify-content: space-between;
+  height: 555px;
+}
 
-  height: 550px;
+.block_img_text {
+  color: grey;
+  width: 255px;
+  height: 313px;
+  font-size: 16px;
+  border: 1px solid blue;
+}
+.block_img_text h1 {
+  padding: 16px;
+  font-size: 36px;
+  color: white;
+}
+.tri h2 {
+  font-size: 48px;
+}
+.group_rasteniya {
+  width: 825px;
+  height: 493px;
+  background-color: #0b1919;
+}
+.rectagle {
+  width: 255px;
+  height: 493px;
+  background-color: #bae249;
+}
+.rectagle h3 {
+  font-size: 24px;
+}
+.rectagle_text {
+  padding: 16px;
+  font-size: 22px;
+}
+
+.rectagle_text_p2 {
+  padding: 15px 0px;
+}
+.group_rasteniya_collection {
+  display: flex;
   justify-content: space-between;
 }
-.leaf1 {
-  rotate: z 90deg;
+.chetyre {
+  padding: 0px 165px;
+  background-image: url("icon\body\listok.jpg");
+  opacity: 0.7;
+  height: 463px;
 }
-.site_info {
-  color: white;
-
+.padin {
+  padding: 0px 165px;
+}
+.footer_container {
+  background-color: #0b1919;
+  width: 100%;
+  padding: 18px 165px;
+  height: 60px;
+}
+.bk {
+  width: 186px;
   justify-content: space-between;
 }
