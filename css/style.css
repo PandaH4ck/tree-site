@@ -38,7 +38,7 @@
 
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("/icon/body/7abec015b26d7fd790a80795819f918a2e149d00.jpg");
+    url("/icon/body/image.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -113,12 +113,16 @@
 }
 .tri h2 {
   font-size: 48px;
+  color: white;
 }
 .group_rasteniya {
+  padding: 15px;
   width: 825px;
   height: 493px;
   background-color: #0b1919;
+  justify-content: space-between;
 }
+
 .rectagle {
   width: 255px;
   height: 493px;
@@ -145,11 +149,11 @@
 }
 .chetyre {
   padding: 0px 165px;
-  /* background-image: url("icon\body\listok.jpg");
+  background-image: url("/icon/body/listok.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  opacity: 0.7; */
+
   height: 463px;
 }
 .chetyre h2 {
