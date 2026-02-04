@@ -100,6 +100,7 @@
 }
 
 .block_img_text {
+  padding: 16px;
   color: grey;
   width: 255px;
   height: 313px;
@@ -107,16 +108,17 @@
   border: 1px solid blue;
 }
 .block_img_text h1 {
-  padding: 16px;
+  padding: 16px 0px 8px;
   font-size: 36px;
   color: white;
 }
+
 .tri h2 {
   font-size: 48px;
   color: white;
 }
 .group_rasteniya {
-  padding: 15px;
+  padding: 15px 0px;
   width: 825px;
   height: 493px;
   background-color: #0b1919;
