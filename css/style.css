@@ -68,24 +68,22 @@
 }
 .block_img {
   width: 255px;
+  height: 493px;
+  border: 2px solid black;
+}
+.plant,
+.flower,
+.leaf,
+.wood {
+  padding: 16px 30px;
   height: 180px;
+  width: 255px;
   background-color: #0b1919;
 }
 
-.plant {
+.block_img_convert {
   rotate: z 90deg;
-  padding: 16px 30px;
 }
-
-.flower {
-  rotate: z 90deg;
-  padding: 29px 30px;
-}
-
-.leaf {
-  padding: 26px 30px;
-}
-
 .leaf img {
   rotate: z 120deg;
 }
@@ -105,7 +103,6 @@
   width: 255px;
   height: 313px;
   font-size: 16px;
-  border: 1px solid blue;
 }
 .block_img_text h1 {
   padding: 16px 0px 8px;
@@ -116,6 +113,7 @@
 .tri h2 {
   font-size: 48px;
   color: white;
+  padding: 57px 0px 0px;
 }
 .group_rasteniya {
   padding: 15px 0px;
